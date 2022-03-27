@@ -1,22 +1,25 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-
+import { Container, Nav, Navbar,  } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './NavSection.css'
 const NavSection = () => {
     return (
-        <div> 
+        <div >
             <Navbar bg="" variant={"dark"} expand="lg" >
-                <Container>
-                    <Navbar.Brand href="/" className='text-white'>POWER <span className='text-warning'>GYM</span></Navbar.Brand>
+                <Container style={{ marginTop: 35 }}>
+                    <Navbar.Brand as={Link} to="/" className='text-white fs-3'>POWER <span className='text-warning'>GYM</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto px-5">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Service</Nav.Link>
-                            <Nav.Link href="#link">Our Classes</Nav.Link>
-                            <Nav.Link href="#link">About Us</Nav.Link>
-                            <Nav.Link href="#link">Blogs</Nav.Link>
-                            <Nav.Link href="#link">Pricing</Nav.Link>
-                            <Nav.Link href="#link">Contact Us</Nav.Link>
+                        <Nav className="ms-auto px-5 navItems">
+                             
+                            <Nav.Link as={Link} to="/"><h6>Home </h6></Nav.Link>
+                            <Nav.Link as={Link} to="/service"><h6> Service </h6></Nav.Link>
+                            <Nav.Link as={Link} to="/class"><h6> Our Classes </h6></Nav.Link>
+                            <Nav.Link as={Link} to="/about"><h6> About Us </h6></Nav.Link>
+                            <Nav.Link as={Link} to="/blogs"><h6> Blogs </h6></Nav.Link>
+                            <Nav.Link as={Link} to="/price"><h6> Pricing </h6></Nav.Link>
+                            <Nav.Link as={Link} to="/contact"><h6> Contact Us </h6></Nav.Link>
+
                             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
@@ -28,6 +31,7 @@ const NavSection = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            
         </div>
     );
 };

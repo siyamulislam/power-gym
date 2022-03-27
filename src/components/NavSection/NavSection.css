@@ -1,0 +1,8 @@
+.navItems h6 {
+    color: rgb(219, 214, 214); 
+    margin-right: 25px;
+    
+}
+.navItems h6:hover{
+    color: rgb(150, 144, 144); 
+}
