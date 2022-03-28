@@ -5,5 +5,38 @@
     background-image: linear-gradient(rgba(25, 25, 32, 0.699),rgba(22, 22, 31, 0.5)),url(../../../images/headerBG.jpg);
     background-size: cover;
     color: white;
-
+}
+.header-content{
+padding: 80px 20px;
+}
+.header-content >.left {
+    display: inline;
+    text-align: center; 
+    padding: 0px 50px;
+}
+.header-content >.left>p {
+    padding: 10px 50px;
+}
+.joinUsBtn{
+    margin-top: 25px;
+    padding: 10px 40px;
+    font-weight: bold; 
+    border: none;
+    background-color: #fcd842;
+    border-radius: 2px;
+}
+.joinUsBtn a{
+    color: #161326;
+    text-decoration: none;
+}
+.header-right-bg{   
+    position: absolute;
+    top: -55%;
+    left: 40%;
+color: rgba(186, 186, 214, 0.171);
+font-size: 1200px;
+font-weight: bold;
+transform: rotate(-45deg); 
+width: -moz-fit-content;
+  width: fit-content; 
 }

@@ -1,13 +1,29 @@
 import React from 'react';
 import NavSection from '../../NavSection/NavSection';
 import './Header.css'
-
+import { Link } from 'react-router-dom';
 const Header = () => {
-    return (
-        <div className='headerMain jumbotron-fluid'>
-          <NavSection></NavSection>
+  return (
+    <div className='headerMain jumbotron-fluid'>
+      <NavSection></NavSection>
+      <div className='row header-content'>
+        <div className="col col-md-6 left"  >
+          <h1 style={{ fontSize: 65, fontWeight: 600 }}>THE BEST FITNESS <br />STUDIO IN TOWN</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia consequatur, maxime quas ab atque quo ut perspiciatis blanditiis sapiente iure cupiditate ducimus tenetur facilis nihil dolorum tempora quia porro nobis aperiam, molestiae necessitatibus quasi accusantium velit !</p>
+
+          {/* <button type='button' className='btn btn-warning px-5 mt-3 btn-lg text-dark '>JOIN US</button> */}
+          <button className="joinUsBtn">
+            <Link to='/price'>JOIN US</Link><br /> 
+          </button>
         </div>
-    );
+        <div className="col col-md-6 right"  >
+
+          <h1 className='header-right-bg'>+</h1>
+        </div>
+
+      </div>
+    </div>
+  );
 };
 
 export default Header;
