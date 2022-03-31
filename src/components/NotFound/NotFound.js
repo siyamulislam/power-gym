@@ -5,46 +5,10 @@ const NotFount = () => {
     return (
         <div style={{backgroundColor:'black'}}>
             <NavSection></NavSection>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
-            <h2>Not Found</h2>
+        
+          <h1>404 not found!</h1>
+       
+           
         </div>
     );
 };
