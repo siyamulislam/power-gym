@@ -18,6 +18,9 @@
     text-align: center;   
     padding: 80px 20px;
 }
+.header-content >.left>h1 {
+    font-size: 4rem;
+}
 .header-content >.left>p {
     padding: 10px 50px;
 }
