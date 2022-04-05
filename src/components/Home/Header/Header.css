@@ -1,7 +1,6 @@
 .headerMain{
     height: 100vh;
     object-fit: cover;
-
     background-image: linear-gradient(rgba(25, 25, 32, 0.699),rgba(22, 22, 31, 0.5)),url(../../../images/headerBG.jpg);
     background-size: cover;
     color: white;

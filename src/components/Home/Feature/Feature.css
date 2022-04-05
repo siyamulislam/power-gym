@@ -1,0 +1,16 @@
+.featureBox{
+    width: 90%;
+    display: flex;
+    background-color: blue;
+    margin: 7rem 5rem; 
+    justify-content: center;
+    align-content: center;
+}
+.featureDiv1{
+    background-image: linear-gradient(rgba(25, 25, 32, 0.699),rgba(22, 22, 31, 0.5)),url(../../../images/feature1.jpg);
+    height: 70vh;
+    width: 90%;
+    margin: 8px;
+    align-items: center;
+    background-size: cover;
+} 
