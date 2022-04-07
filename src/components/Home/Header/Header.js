@@ -3,10 +3,10 @@ import NavSection from '../../NavSection/NavSection';
 import './Header.css'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmark,faCirclePlay } from '@fortawesome/free-solid-svg-icons';
+import { faXmark, faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
   return (
-    <div className='headerMain jumbotron-fluid'>
+    <section><div className='headerMain jumbotron-fluid'>
       <NavSection></NavSection>
       <div className='row header-content'>
         <div className="col col-md-6 col-sm-12 left"  >
@@ -22,7 +22,7 @@ const Header = () => {
 
           {/* <h1 className='header-right-bg'>+</h1> */}
           <FontAwesomeIcon className='header-right-icon' icon={faXmark} />
-          <div className='row iconContainer'> 
+          <div className='row iconContainer'>
             <div className="vLine"></div>
             <div className="playBtn">  <FontAwesomeIcon size='4x' icon={faCirclePlay} color='rgba(200, 210, 214, 1)' /> </div>
             <div className="vLine"></div>
@@ -30,7 +30,7 @@ const Header = () => {
         </div>
 
       </div>
-    </div >
+    </div ></section>
   );
 };
 

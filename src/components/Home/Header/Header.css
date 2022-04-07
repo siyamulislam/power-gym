@@ -4,6 +4,7 @@
     background-image: linear-gradient(rgba(25, 25, 32, 0.699),rgba(22, 22, 31, 0.5)),url(../../../images/headerBG.jpg);
     background-size: cover;
     color: white;
+    overflow: hidden;
 }
 .header-content>.right{
  /* background: rgb(145, 100, 100);  */

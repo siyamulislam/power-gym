@@ -16,18 +16,39 @@
     background-position: center center;
   background-repeat: no-repeat;
 }  */
-
-.card img{
-}
-.featureBox{
+ 
+.featureBox{  
+  display: flex;
   height: 600px;
+  margin: 6rem 5rem; 
+  justify-content: center;
+  align-content: center;
 }
-.cardBody{
-    height: 450px;
-    color: white;
-    background-repeat: no-repeat;
+.card{ 
+  width:  420px;
+  height:   420px;
+    color: white; 
 }
-.img-1{
+.card img{  
+  height: 50px; 
+  margin-top: 65px; 
+  margin-bottom: 20px;
+}
+.fLogo-1{
   background-image: linear-gradient(rgba(25, 25, 32, 0.699),rgba(22, 22, 31, 0.5)),url(../../../images/feature1.jpg);
-  background-size: 100%, 100%;   
+  background-size: cover;
+  background-position: center center;
+background-repeat: no-repeat; 
+}
+.fLogo-2{
+  background-image: linear-gradient(rgba(25, 25, 32, 0.699),rgba(22, 22, 31, 0.5)),url(../../../images/feature2.jpg);
+  background-size: cover;
+  background-position: center center;
+background-repeat: no-repeat; 
+}
+.fLogo-3{
+  background-image: linear-gradient(rgba(25, 25, 32, 0.699),rgba(22, 22, 31, 0.5)),url(../../../images/feature3.jpg);
+  background-size: 100%, 100%;  
+  background-position: center center;
+background-repeat: no-repeat; 
 }
