@@ -1,4 +1,4 @@
-.featureBox{
+/* .featureBox{
     width: 90%;
     display: flex;
     background-color: blue;
@@ -15,4 +15,19 @@
     background-size: cover;
     background-position: center center;
   background-repeat: no-repeat;
-} 
+}  */
+
+.card img{
+}
+.featureBox{
+  height: 600px;
+}
+.cardBody{
+    height: 450px;
+    color: white;
+    background-repeat: no-repeat;
+}
+.img-1{
+  background-image: linear-gradient(rgba(25, 25, 32, 0.699),rgba(22, 22, 31, 0.5)),url(../../../images/feature1.jpg);
+  background-size: 100%, 100%;   
+}
