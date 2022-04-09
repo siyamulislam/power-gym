@@ -9,8 +9,8 @@ const Header = () => {
     <section><div className='headerMain jumbotron-fluid'>
       <NavSection></NavSection>
       <div className='row header-content'>
-        <div className="col col-md-6 col-sm-12 left"  >
-          <h1 >THE BEST FITNESS <br />STUDIO IN TOWN</h1>
+        <div className="col col-md-6 col-sm-12 left"  > 
+          <h1>THE BEST FITNESS <br />STUDIO IN TOWN</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia consequatur, maxime quas ab atque quo ut perspiciatis blanditiis sapiente iure cupiditate ducimus tenetur facilis nihil dolorum tempora quia porro nobis aperiam, molestiae necessitatibus quasi accusantium velit !</p>
 
           {/* <button type='button' className='btn btn-warning px-5 mt-3 btn-lg text-dark '>JOIN US</button> */}

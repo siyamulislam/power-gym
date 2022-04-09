@@ -19,7 +19,8 @@
     padding: 80px 20px;
 }
 .header-content >.left>h1 {
-    font-size: 4rem;
+    font-weight: 500;
+    font-size: calc(1rem+ 2vw);
 }
 .header-content >.left>p {
     padding: 10px 50px;
