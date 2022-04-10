@@ -9,7 +9,7 @@ const Header = () => {
     <section><div className='headerMain jumbotron-fluid'>
       <NavSection></NavSection>
       <div className='row header-content'>
-        <div className="col col-md-6 col-sm-12 left"  > 
+        <div className=" col-md-6 col-sm-12 col-xs-12 left"  > 
           <h1>THE BEST FITNESS <br />STUDIO IN TOWN</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia consequatur, maxime quas ab atque quo ut perspiciatis blanditiis sapiente iure cupiditate ducimus tenetur facilis nihil dolorum tempora quia porro nobis aperiam, molestiae necessitatibus quasi accusantium velit !</p>
 
@@ -18,7 +18,7 @@ const Header = () => {
             <Link to='/price'>JOIN US</Link><br />
           </button>
         </div>
-        <div className="col col-md-6 col-sm-12 right"  >
+        <div className=" col-md-6 col-sm-12 col-xs-12 right"  >
 
           {/* <h1 className='header-right-bg'>+</h1> */}
           <FontAwesomeIcon className='header-right-icon' icon={faXmark} />

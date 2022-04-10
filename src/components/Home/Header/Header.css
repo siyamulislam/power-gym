@@ -63,3 +63,32 @@ width: -moz-fit-content;
     justify-content: center;
     align-items: center; 
 }
+
+@media only screen and (max-width: 1400px) {
+    .header-content >.left>h1 {
+        font-weight: 400;
+        font-size: calc(1rem+ 2vw);
+    }
+    .header-content >.left {   
+        padding: 40px 10px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .header-content >.left>h1 {
+        font-weight: 200;
+        font-size: calc(1rem+ 1vw);
+    }
+    .header-content >.left {   
+        padding: 20px 10px;
+    }
+    .header-content >.left>p {
+        padding: 5px 10px;
+        font-size: 14px;
+
+    }
+    .joinUsBtn{
+        margin-top: 10px;
+        padding: 5px 20px;
+        border-radius: 1px;
+    }
+}
