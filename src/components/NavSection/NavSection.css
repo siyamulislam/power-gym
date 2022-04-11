@@ -10,7 +10,6 @@ font-size: 32px !important;
     color: rgb(150, 144, 144); 
 }
 
-
 @media only screen and (max-width: 1366px) {
     .navBrand{
         font-size: 30px !important;
@@ -19,9 +18,7 @@ font-size: 32px !important;
             margin: 0px 6px  ;  
             font-size: 15px;
         }
-
 }
 @media only screen and (max-width: 768px) {
    
-
 }
