@@ -24,7 +24,7 @@ const Header = () => {
           <FontAwesomeIcon className='header-right-icon' icon={faXmark} />
           <div className='row iconContainer'>
             <div className="vLine"></div>
-            <div className="playBtn">  <FontAwesomeIcon size='4x' icon={faCirclePlay} color='rgba(200, 210, 214, 1)' /> </div>
+            <div className="playBtn">  <FontAwesomeIcon  icon={faCirclePlay} color='rgba(200, 210, 214, 1)' /> </div>
             <div className="vLine"></div>
           </div>
         </div>

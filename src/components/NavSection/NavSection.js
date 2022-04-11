@@ -7,7 +7,7 @@ const NavSection = () => {
         <div >
             <Navbar bg="" variant={"dark"} expand="lg" >
                 <Container style={{ marginTop: 35 }}>
-                    <Navbar.Brand as={Link} to="/" className='text-white fs-3'>POWER <span className='text-warning'>GYM</span></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/" className='  navBrand'>POWER <span className='text-warning'>GYM</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto px-5 navItems">

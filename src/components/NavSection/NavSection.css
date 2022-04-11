@@ -1,8 +1,27 @@
+.navBrand{
+font-size: 32px !important;
+}
 .navItems h6 {
     color: rgb(219, 214, 214); 
-    margin-right: 25px;
-    
+    margin: 0px 8px 0px 8px;  
+    font-size: 18px;
 }
 .navItems h6:hover{
     color: rgb(150, 144, 144); 
+}
+
+
+@media only screen and (max-width: 1366px) {
+    .navBrand{
+        font-size: 30px !important;
+        }
+        .navItems h6 { 
+            margin: 0px 6px  ;  
+            font-size: 15px;
+        }
+
+}
+@media only screen and (max-width: 768px) {
+   
+
 }
