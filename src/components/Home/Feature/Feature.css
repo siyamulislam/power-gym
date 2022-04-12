@@ -19,7 +19,6 @@
  
 .featureBox{  
   display: flex;
-  height: 600px;
   margin: 6rem 5rem; 
   justify-content: center;
   align-content: center;
