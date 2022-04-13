@@ -29,7 +29,7 @@ const Feature = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col p-2   ">
+                    <div className="col p-2">
                         <div className="card" >
                             <div className="card-body fLogo-2 d-flex align-items-center ">
                                 <div>

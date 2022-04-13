@@ -1,4 +1,56 @@
-.headCheck{
- font-size: 12rem+3vw;
- /* font-size: calc(12vw+3rem); */
+
+.aboutUs{
+    margin: 4rem 5rem;
 }
+.aboutContent{ 
+    text-align: left;
+}
+.aboutContent .left{
+    padding: 10px;
+ display: flex;
+ justify-content: center;
+  align-items: center;
+}
+.aboutContent h1{ 
+color: #b9b9c7;
+font-size: calc(20px + (70 - 20) * ((100vw - 300px) / (1900 - 300)));
+}
+.aboutContent h2{ 
+    color: #FCCA42; 
+font-size: calc(15px + (38 - 15) * ((100vw - 300px) / (1900 - 300)));
+}
+.aboutContent p{ 
+    width: 70%;
+color: #171426;
+text-align: justify;
+font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1900 - 300)));
+}
+.aboutUs img{
+ height: 70%; 
+  }
+  .aboutUs .right{
+    padding: 15px;
+}
+
+  @media only screen and (max-width: 1366px) {
+    .aboutUs{
+        margin: 2.5rem 3rem;
+    } 
+    .aboutUs img{
+        height: 80%; 
+         }
+         .aboutUs .right{
+             padding: 10px;
+         }
+  }                       
+  @media only screen and (max-width: 768px) {
+    .aboutUs{
+        margin: 1rem 1.5rem;
+    }
+    .aboutUs img{
+        height: 90%; 
+         }
+         .aboutUs .right{
+            padding: 20px;
+        }
+  }
