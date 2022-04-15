@@ -20,6 +20,9 @@ margin-top: calc(77px + (130 - 77) * ((100vw - 1366px) / (1920 - 1366)));
     color: #FCCA42; 
 font-size: calc(15px + (38 - 15) * ((100vw - 300px) / (1900 - 300)));
 }
+.aboutContent h2 span{ 
+    color: #303030;  
+}
 .aboutContent p{ 
     width: 70%;
 color: #171426;
@@ -46,7 +49,7 @@ font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1900 - 300)));
   }                       
   @media only screen and (max-width: 768px) {
     .aboutUs{
-        margin: 1rem 1.5rem;
+        margin: 0.5rem 1.5rem;
     }
     .aboutUs img{
         height: 90%; 
