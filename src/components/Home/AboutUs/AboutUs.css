@@ -1,6 +1,6 @@
 
 .aboutUs{
-    margin: 4rem 5rem;
+    margin: 1rem 5rem;
 }
 .aboutContent{ 
     text-align: left;
@@ -14,7 +14,7 @@
 .aboutContent h1{ 
 color: #b9b9c7;
 font-size: calc(20px + (70 - 20) * ((100vw - 300px) / (1900 - 300)));
-margin-top: calc(77px + (130 - 77) * ((100vw - 1366px) / (1920 - 1366)));
+padding-top: calc(77px + (130 - 77) * ((100vw - 1366px) / (1920 - 1366)));
 }
 .aboutContent h2{ 
     color: #FCCA42; 
@@ -38,7 +38,7 @@ font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1900 - 300)));
 
   @media only screen and (max-width: 1366px) {
     .aboutUs{
-        margin: 2.5rem 3rem;
+        margin: 1.5rem 3rem;
     } 
     .aboutUs img{
         height: 80%; 
