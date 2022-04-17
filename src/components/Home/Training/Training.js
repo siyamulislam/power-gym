@@ -1,6 +1,5 @@
 import React from 'react';
 import './Training.css'
-
 const Training = () => {
     return (
         <section>
