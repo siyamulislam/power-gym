@@ -7,10 +7,10 @@ const Training = () => {
         <section className='training'>
             <h1>TRAINING <span>PROGRAMS</span> </h1> 
             <div className='row trainingBox'>
-                <div className="col-md-2 left box">
+                <div className=" col-md-6 col-sm-12 left box">
                     <h2>YOGA TRAINING SEASON <span><FontAwesomeIcon icon={faArrowRight} /></span></h2>
                 </div>
-                <div className="col-md-2 right box">
+                <div className="col-md-6 col-sm-12 right box">
                 <h2>CARDIO TRAINING SEASON <span><FontAwesomeIcon icon={faArrowRight} /></span></h2>
                 </div>
             </div>
