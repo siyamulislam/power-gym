@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import AboutUs from './AboutUs/AboutUs';
 import ChoseUs from './ChoseUs/ChoseUs';
 import Feature from './Feature/Feature';
@@ -13,6 +14,7 @@ const Home = () => {
           <AboutUs></AboutUs>
           <Training></Training>
           <ChoseUs></ChoseUs>
+          <Footer></Footer>
         </div>
     );
 };
