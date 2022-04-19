@@ -38,7 +38,7 @@ font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1900 - 300)));
 
   @media only screen and (max-width: 1366px) {
     .aboutUs{
-        margin: 1.5rem 3rem;
+        margin: .5rem 3rem;
     } 
     .aboutUs img{
         height: 80%; 
@@ -49,7 +49,7 @@ font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1900 - 300)));
   }                       
   @media only screen and (max-width: 768px) {
     .aboutUs{
-        margin: 0.5rem 1.5rem;
+        margin: 0.2rem 1.5rem;
     }
     .aboutUs img{
         height: 90%; 
