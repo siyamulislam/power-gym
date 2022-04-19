@@ -19,7 +19,7 @@
  
 .featureBox{  
   display: flex;
-  margin: 6rem 5rem; 
+  margin: 4rem 5rem; 
   justify-content: center;
   align-content: center;
 }
