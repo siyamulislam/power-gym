@@ -1,5 +1,6 @@
 .chooseUs {
-     height: 100vw;
+     /* min-height: 100vw; */
+      
 }
 .chooseUs h1  {
     font-size: calc(20px + (70 - 20) * ((100vw - 300px) / (1900 - 300)));
