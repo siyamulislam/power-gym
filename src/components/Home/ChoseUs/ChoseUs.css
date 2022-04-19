@@ -10,15 +10,22 @@
 .chooseUs h1 span{
     color: #171426;
 }
+.chooseBox{
+   position: relative; 
+   margin: 20px 0px;
+}
 .row{
     /* background: rgba(255, 0, 0, 0.224); */
     padding: calc(15px + (60 - 15) * ((100vw - 768px) / (1900 - 768))) calc(20px + (110 - 20) * ((100vw - 768px) / (1900 - 768)));
+    margin: 0 auto;
     /* display: flex;
     align-items: center !important;
     justify-content: center !important;  */
 }
+
 .box{ 
     /* background-color: blue;  */
+    position: relative;
     padding: 3px; 
     margin-top: 40px !important;
 }
@@ -40,13 +47,14 @@
     padding: 15px;
     position: relative;
     align-items: center;
+     margin: 0 auto;
 }
 .cardElements{
     position: absolute; 
     bottom: 20px;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1410px) {
     .card{
         width: 400px !important;
         padding: 8px;
@@ -58,9 +66,24 @@
         padding: 5px;
     }
   } 
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 1210px) {
     .card{
-        width: 370px !important;
+        width: 360px !important;
         padding: 5px;
     }
   } 
+  @media only screen and (max-width: 810px) {
+    .card{
+        width: 350px !important;
+        padding: 5px;
+    }
+  } 
+/* @media only screen and (max-width: 768px) {
+    .box{
+        position: relative;
+        }
+    .card{
+        margin: 0 auto;
+        }
+  }  */
