@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
+import Classes from './components/Classes/Classes';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
 
           <Route path="/" element={<Home />}/> 
+          <Route path="/class" element={<Classes/>}/> 
           <Route path="/about" element={<NotFound />}/> 
           <Route path="*" element={<NotFound />}/> 
 

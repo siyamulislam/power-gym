@@ -1,0 +1,21 @@
+.header2 {
+    height: 60vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(25, 25, 32, 0.699),rgba(22, 22, 31, 0.5)),url(../../images/headerBG.jpg);
+}
+.header2 .header2body{
+    height: calc(100% - 110px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.header2 .header2body h1{
+   color: rgb(224, 213, 213);
+   text-transform: uppercase;
+   font-weight: 800; 
+   font-size: calc(25px + (70 - 25) * ((100vw - 300px) / (1900 - 300)));
+   font-family: Helvetica;
+   
+
+
+  }
