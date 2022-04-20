@@ -1,0 +1,30 @@
+.cardBox{
+    max-width: 400px;
+    height: 400px;
+    /* overflow: hidden; */
+    
+}
+.cardBox h3{
+    background: #FCD842;
+    padding: 5px 0px;
+    font-size: 1rem;
+    line-height: 1.6; 
+}
+.cardBox h3 span{
+    margin-left: 10px;
+}
+.upperContent{
+
+}
+
+.lowerContent{
+    padding:0px 50px;
+    transform: translate(0px,-22px);
+}
+
+.cardBox img{
+    height: 350px;
+    width: 350px;
+    /* object-fit: cover; */
+    
+}
