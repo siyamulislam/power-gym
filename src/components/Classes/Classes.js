@@ -19,7 +19,9 @@ const Classes = () => {
         <div className='classes'>
             <Header2 heading={"Our Classes"}></Header2> 
             <div className='classBody '>
-                <ClassCard card={classDB[0]}></ClassCard>
+                {
+                classDB.map(card=>  <ClassCard card={card}></ClassCard> )
+                }
             
             </div>
             <Footer></Footer>

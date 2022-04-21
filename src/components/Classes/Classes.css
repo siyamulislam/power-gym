@@ -1,4 +1,8 @@
 .classes .classBody{
  
     margin: 15px 30px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 40px calc((100% - (400px * 3)) / 2); */
 }

@@ -1,6 +1,8 @@
 .cardBox{
-    max-width: 400px;
-    height: 400px;
+    /* max-width: 400px;
+    height: 400px; */
+   flex: 0 0 400px;
+   margin-top: 25px;
     /* overflow: hidden; */
     
 }
@@ -23,8 +25,8 @@
 }
 
 .cardBox img{
-    height: 350px;
-    width: 350px;
+    height: 390px;
+    width: 390px;
     /* object-fit: cover; */
     
 }
