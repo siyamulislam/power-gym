@@ -18,7 +18,6 @@ const Classes = () => {
         {title:"Cardio Training",   img:class4},
         {title:"Psycho Training",   img:class5},
         {title:"Strength Training", img:class6},
-
     ]
     return (
         <div className='classes'>
@@ -27,7 +26,6 @@ const Classes = () => {
                 {
                 classDB.map(card=>  <ClassCard card={card}></ClassCard> )
                 }
-            
             </div>
             <Footer></Footer>
         </div>
