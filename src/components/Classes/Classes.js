@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from '../Footer/Footer';
 import Header2 from '../Header2/Header2'; 
 import './Classes.css'
@@ -11,6 +11,7 @@ import class6 from '../../images/class6.jpg'
 import ClassCard from './ClassCard/ClassCard';
 
 const Classes = () => {
+    const [isSelected, setSelected] = useState(''); 
     const classDB=[
         {title:"Psycho Training",   img:class1},
         {title:"Self Defence",      img:class2},
@@ -19,12 +20,15 @@ const Classes = () => {
         {title:"Psycho Training",   img:class5},
         {title:"Strength Training", img:class6},
     ]
+    const selected= (card) =>{
+        setSelected(card.title);
+    }
     return (
         <div className='classes'>
-            <Header2 heading={"Our Classes"}></Header2> 
+            <Header2 heading={isSelected===''? "Our Classes": isSelected}></Header2> 
             <div className='classBody '>
                 {
-                classDB.map(card=>  <ClassCard card={card}></ClassCard> )
+                classDB.map( card=>  <ClassCard key={card.img}  card={card} selected={selected}></ClassCard> )
                 }
             </div>
             <Footer></Footer>

@@ -10,7 +10,13 @@ const ClassCard = (props) => {
                 <img src={props.card.img} alt="" />
             </div>
             <div className="lowerContent">
-                <h3>{props.card.title} <span><FontAwesomeIcon icon={faArrowRight} /></span></h3>
+                <h3
+                 onClick={
+                  ()=>{  props.selected(props.card)}
+                 }
+                 
+                 
+                 >{props.card.title} <span><FontAwesomeIcon icon={faArrowRight} /></span></h3>
             </div>
         </div>
     );
