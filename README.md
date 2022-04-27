@@ -1,8 +1,9 @@
-Intro: This is full stack web application build with React js in frontend and Node js as backend.
+Intro: This is gonna full stack web application build with React js in frontend and Node js as backend.
 User can choose their gym plan and enroll in GYM.
 Our couch will provide training instraction with bodu manner.
 The GYM system trun in online is the main motive in this application. 
-S
+
+Fronted : React Js, Bootstrap, fontawesome, React routing, etc
 
 
 
