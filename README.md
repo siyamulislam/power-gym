@@ -1,3 +1,12 @@
+Intro: This is gonna full stack web application build with React js in frontend and Node js as backend.
+User can choose their gym plan and enroll in GYM.
+Our couch will provide training instraction with bodu manner.
+The GYM system trun in online is the main motive in this application. 
+
+Fronted : React Js, Bootstrap, fontawesome, React routing, etc
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
