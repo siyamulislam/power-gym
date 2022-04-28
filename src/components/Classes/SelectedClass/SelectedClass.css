@@ -1,5 +1,64 @@
+.selectedClass  p{ 
+text-align: justify;
+padding: 25px 0px;
+    
+}
+.selectedClass  ul{ 
+text-align: start;
+    
+}
+.selectedClass  ul li{ 
+text-align: start;
+padding: 8px 0px;
+    
+}
+.selectedClass h1{ 
+    text-transform: uppercase;
+    font-weight: 600; 
+    color: #FCD842;
+    text-align: start;
+    font-family: Helvetica;
+    font-size: calc(15px + (50 - 15) * ((100vw - 300px) / (1900 - 300)));
+}
+.selectedClass h1 span{   
+    color: #171426; 
+}
 .selectedClass  img{ 
-    width: 50vw;
+    width: 100%;  
     /* object-fit: cover; */
     
 }
+.selectedClass  .left{ 
+    padding: 40px;  
+}
+.selectedClass  .right{         
+   position: relative; 
+}
+
+.selectedClass  .right .schedules{ 
+  padding: 10px; 
+  display: flex;
+  flex-wrap: wrap;
+}
+.selectedClass  .right .schedule{ 
+  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.683);
+  padding: 5px 10px;
+  text-align: start;
+  margin: 6px 6px;
+  width: 45%;
+}
+.selectedClass  .right .schedule h4{ 
+    color: #171426;
+}
+.selectedClass  .right .schedule h6{ 
+    color: #FCD842;
+}
+.selectedClass  .right .joinUsBtn{ 
+    padding: 10px 40px;
+    font-weight: bold; 
+    border: none;
+    background-color: #fcd842;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 50px;
+} 
