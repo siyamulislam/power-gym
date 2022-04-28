@@ -5,3 +5,7 @@
     justify-content: center;
     /* padding: 40px calc((100% - (400px * 3)) / 2); */
 }
+.classes .selectedClassBody{
+    margin: 15px 30px; 
+    justify-content: center; 
+}

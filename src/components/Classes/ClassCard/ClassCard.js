@@ -14,8 +14,6 @@ const ClassCard = (props) => {
                  onClick={
                   ()=>{  props.selected(props.card)}
                  }
-                 
-                 
                  >{props.card.title} <span><FontAwesomeIcon icon={faArrowRight} /></span></h3>
             </div>
         </div>
