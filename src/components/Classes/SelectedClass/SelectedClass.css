@@ -39,9 +39,10 @@ padding: 8px 0px;
   padding: 10px; 
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 150px;
 }
 .selectedClass  .right .schedule{ 
-  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.683);
+  box-shadow: 2px 2px 4px rgba(160, 159, 159, 0.514);
   padding: 5px 10px;
   text-align: start;
   margin: 6px 6px;
@@ -49,9 +50,13 @@ padding: 8px 0px;
 }
 .selectedClass  .right .schedule h4{ 
     color: #171426;
+    font-size: calc(15px + (30 - 15) * ((100vw - 300px) / (1900 - 300)));
+
 }
 .selectedClass  .right .schedule h6{ 
     color: #FCD842;
+    font-size: calc(8px + (18 - 8) * ((100vw - 300px) / (1900 - 300)));
+
 }
 .selectedClass  .right .joinUsBtn{ 
     padding: 10px 40px;
