@@ -1,0 +1,41 @@
+.priceCard{
+    height: 500px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-size: cover;
+    background-position: center center;
+  background-repeat: no-repeat; 
+  margin: 20px 10px;
+}
+.priceCard .priceCardBody{
+    /* padding: 25px; */
+}
+.priceCard .priceCardBody .purchaseBtn{ 
+    padding: 5px 20px;  
+    border: none;
+    background-color: #fcd842;
+    border-radius: 1px; 
+} 
+.priceCard .priceCardBody .purchaseBtn a{ 
+   text-decoration: none;
+   color: #171426;
+   font-weight: 500;
+   text-transform: uppercase;
+} 
+.priceCard .priceCardBody ul{ 
+   text-align: start;
+   list-style-type: circle;
+   color: #ffffff;
+} 
+.priceCard .priceCardBody h6{ 
+    color: #FCD842;text-transform: uppercase;
+} 
+.priceCard .priceCardBody h4{ 
+    color: #ffffff;
+    text-transform: uppercase;
+} 
+.priceCard .priceCardBody h1{ 
+    color: #FCD842;
+} 

@@ -1,5 +1,9 @@
 .pricing .cardBody{
-
+padding: 80px 100px;
+padding-top: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 .pricing .priceTopBody{
  padding: 25px 0px;

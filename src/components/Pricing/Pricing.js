@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
 import Header2 from '../Header2/Header2';
+import PriceCard from './PriceCard/PriceCard';
 import './pricing.css'
 
 const Pricing = () => {
@@ -12,6 +13,9 @@ const Pricing = () => {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam illum autem, est quae natus. Voluptates, cupiditate.</p>
             </div>
             <div className='cardBody'>
+                <PriceCard></PriceCard>
+                <PriceCard></PriceCard>
+                <PriceCard></PriceCard>
 
             </div>
             <Footer></Footer>
