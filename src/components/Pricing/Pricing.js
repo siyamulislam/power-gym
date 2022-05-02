@@ -8,8 +8,9 @@ import priceBg2 from '../../images/feature2.jpg'
 import priceBg3 from '../../images/feature3.jpg'
 
 const Pricing = () => {
-    const priceList = [
+    const planList = [
         {
+            pID:1,
             duration: "Billed Monthly",
             name: "Advanced Plan",
             price: 140,
@@ -17,6 +18,7 @@ const Pricing = () => {
             img: priceBg1
         },
         {
+            pID:2,
             duration: "Billed Monthly",
             name: "Basic Plan",
             price: 120,
@@ -24,6 +26,7 @@ const Pricing = () => {
             img: priceBg2
         },
         {
+            pID:3,
             duration: "Billed Monthly",
             name: "Beginners Plan",
             price: 90,
@@ -39,9 +42,9 @@ const Pricing = () => {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam illum autem, est quae natus. Voluptates, cupiditate.</p>
             </div>
             <div className='cardBody'>
-                <PriceCard></PriceCard>
-                <PriceCard></PriceCard>
-                <PriceCard></PriceCard>
+                {
+                    planList.map(plan=><PriceCard key={plan.pID} plan={plan}></PriceCard>)
+                } 
 
             </div>
             <Footer></Footer>
