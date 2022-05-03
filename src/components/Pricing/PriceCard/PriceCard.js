@@ -18,7 +18,7 @@ const PriceCard = (props) => {
                     {feature.map(item=><li key={item}>{item}</li>)} 
                 </ul>
                 <button className="purchaseBtn">
-                    <Link to='/price'>purchase</Link><br />
+                    <Link to='/price/member-ship'>purchase</Link><br />
                 </button>
 
             </div>
