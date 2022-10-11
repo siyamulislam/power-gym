@@ -17,6 +17,9 @@ In the project directory, you can run:
 
 ### `npm start`
 
+![image](https://user-images.githubusercontent.com/53119070/195179216-175414cf-8c04-4e01-8fc9-4fdb66535421.png)
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
